@@ -2,7 +2,7 @@ package me.duncte123.alljvmlangs
 
 import static me.duncte123.alljvmlangs.MessageHandler.printMln
 
-class GroovyClass implements IBase {
+class GroovyClass extends LangBase {
     @Override
     void printMessage() {
         printMln "Hello from groovy"

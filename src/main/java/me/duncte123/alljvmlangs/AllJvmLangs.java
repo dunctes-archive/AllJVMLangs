@@ -6,7 +6,7 @@ import static me.duncte123.alljvmlangs.MessageHandler.printMln;
 
 public class AllJvmLangs {
 
-    private static final List<IBase> classes = List.of(
+    private static final List<LangBase> classes = List.of(
             new JavaClass(),
             new GroovyClass(),
             new KotlinClass(),
@@ -21,7 +21,7 @@ public class AllJvmLangs {
         printMln("");
         printMln("");
 
-        for(IBase base : classes) {
+        for(LangBase base : classes) {
             base.handleMessage();
         }
     }

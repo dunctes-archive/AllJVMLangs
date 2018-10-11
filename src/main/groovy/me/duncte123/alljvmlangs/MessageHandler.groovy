@@ -8,7 +8,7 @@ class MessageHandler {
 
     static void printMf(String message, Object... args) {
         out.printf(message, args)
-        printf( message, args)
+        printf(message, args)
     }
 
     static void printMln(String message) {
