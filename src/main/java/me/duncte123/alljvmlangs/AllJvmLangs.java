@@ -10,11 +10,11 @@ public class AllJvmLangs {
             new JavaClass(),
             new GroovyClass(),
             new KotlinClass(),
-            new ScalaClass()
+            new ScalaClass(),
+            new RunRhino()
     );
 
     public static void main(String[] args) {
-
         printMln("Welcome to AllJVMLangs");
         printMln("Trying to run this is a waste of your time");
         printMln("This file contains the output generated from all the messages in the classes");
