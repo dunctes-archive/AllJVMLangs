@@ -1,7 +1,7 @@
-All JVM Lang
+All JVM Langs
 ---
 
-#### What is this?
+### What is this?
 This is a project where I want to include as many JVM languages as possible within a single project.
 
 Current languages:
@@ -10,5 +10,5 @@ Current languages:
  - Kotlin
  - Scala
 
-#### Why?
+### Why?
 Why not?
