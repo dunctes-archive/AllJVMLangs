@@ -11,7 +11,8 @@ public class AllJvmLangs {
             new GroovyClass(),
             new KotlinClass(),
             new ScalaClass(),
-            new RunRhino()
+            new RunRhino(),
+            new RunGolo()
     );
 
     public static void main(String[] args) {
