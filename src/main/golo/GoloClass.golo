@@ -1,5 +1,7 @@
 module GoloClass
 
+import me.duncte123.alljvmlangs.MessageHandler
+
 function printMessage = {
-    println("Hello from golo")
+    MessageHandler.printMln("Hello from golo")
 }

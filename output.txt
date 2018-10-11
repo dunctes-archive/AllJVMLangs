@@ -8,4 +8,4 @@ Class: me.duncte123.alljvmlangs.GroovyClass > Hello from groovy
 Class: me.duncte123.alljvmlangs.KotlinClass > Hello from kotlin
 Class: me.duncte123.alljvmlangs.ScalaClass > Hello from scala
 Class: me.duncte123.alljvmlangs.RunRhino > Hello from rhino
-Class: me.duncte123.alljvmlangs.RunGolo > 
+Class: me.duncte123.alljvmlangs.RunGolo > Hello from golo
