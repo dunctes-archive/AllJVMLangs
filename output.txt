@@ -3,6 +3,7 @@ Trying to run this is a waste of your time
 This file contains the output generated from all the messages in the classes
 
 
-Class: me.duncte123.alljvmlangs.JavaClass > Class: me.duncte123.alljvmlangs.GroovyClass > Hello from groovy
+Class: me.duncte123.alljvmlangs.JavaClass > Hello from java
+Class: me.duncte123.alljvmlangs.GroovyClass > Hello from groovy
 Class: me.duncte123.alljvmlangs.KotlinClass > Hello from kotlin
 Class: me.duncte123.alljvmlangs.ScalaClass > Hello from scala
