@@ -9,6 +9,7 @@ Current languages:
  - Groovy
  - Kotlin
  - Scala
+ - Rhino (sorta)
 
 ### Why?
 Why not?
