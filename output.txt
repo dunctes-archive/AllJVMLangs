@@ -1,5 +1,5 @@
 Welcome to AllJVMLangs
-Trying to run this is a waste of your time
+Don't ask me why I made this
 This file contains the output generated from all the messages in the classes
 
 
@@ -7,5 +7,6 @@ Class: me.duncte123.alljvmlangs.JavaClass > Hello from java
 Class: me.duncte123.alljvmlangs.GroovyClass > Hello from groovy
 Class: me.duncte123.alljvmlangs.KotlinClass > Hello from kotlin
 Class: me.duncte123.alljvmlangs.ScalaClass > Hello from scala
+Booting rhino class?
 Class: me.duncte123.alljvmlangs.RunRhino > Hello from rhino
 Class: me.duncte123.alljvmlangs.RunGolo > Hello from golo

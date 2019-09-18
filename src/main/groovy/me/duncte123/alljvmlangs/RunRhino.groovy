@@ -5,12 +5,19 @@ import org.mozilla.javascript.Context
 /**
  * Little hack to run rhino :)
  */
-class RunRhino extends LangBase {
-    @Override
-    void printMessage() {
+class RunRhino {
+    String printMessage() {
         def mozillaJsContext = Context.enter()
         def scope = mozillaJsContext.initStandardObjects()
-        def script = new FileReader("src/main/rhino/me/duncte123/alljvmlangs/RhinoClass.js").readLines().join("")
-        mozillaJsContext.evaluateString(scope, script, "RhinoClass", 1, null)
+        def reader = new FileReader("src/main/rhino/me/duncte123/alljvmlangs/RhinoClass.js")
+        def evaled = mozillaJsContext.evaluateReader(
+                scope,
+                reader,
+                "RhinoClass.js",
+                1,
+                null
+        )
+
+        return mozillaJsContext.toString(evaled)
     }
 }
