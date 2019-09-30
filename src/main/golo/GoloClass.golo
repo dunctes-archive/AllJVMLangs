@@ -1,5 +1,5 @@
 module GoloClass
 
-function printMessage = {
+function getMessage = {
     return "Hello from golo"
 }
