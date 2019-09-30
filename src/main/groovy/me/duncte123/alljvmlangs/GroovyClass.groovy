@@ -1,7 +1,7 @@
 package me.duncte123.alljvmlangs
 
 class GroovyClass {
-    String printMessage() {
+    String getMessage() {
         "Hello from groovy"
     }
 }

@@ -6,7 +6,7 @@ import org.mozilla.javascript.Context
  * Little hack to run rhino :)
  */
 class RunRhino {
-    String printMessage() {
+    String getMessage() {
         def mozillaJsContext = Context.enter()
         def scope = mozillaJsContext.initStandardObjects()
         def reader = new FileReader("src/main/rhino/me/duncte123/alljvmlangs/RhinoClass.js")

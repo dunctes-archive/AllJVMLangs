@@ -37,7 +37,7 @@ public class AllJvmLangs {
             String className = "me.duncte123.alljvmlangs." + clsn;
             Class<?> cls = Class.forName(className);
             Object o = cls.getDeclaredConstructor().newInstance();
-            Method m = cls.getDeclaredMethod("printMessage");
+            Method m = cls.getDeclaredMethod("getMessage");
 
             String ret = (String) m.invoke(o);
 
